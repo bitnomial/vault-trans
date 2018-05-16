@@ -1,0 +1,14 @@
+resolver: nightly-2017-09-06
+
+flags: {}
+
+packages:
+  - '.'
+  - location:
+      git: git://github.com/bitnomial/hs-vault-tool
+      commit: 08c879f629e7a55b95b9965e2a8584bc5e37808a
+    extra-dep: true
+    subdirs:
+      - vault-tool
+
+extra-deps: []
