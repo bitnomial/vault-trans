@@ -1,6 +1,7 @@
 name:           vault-trans
 version:        0.1.0
 synopsis:       A monad transformer for vault-tool
+description:    Monad transformer for interfacing with vault.
 License:        BSD3
 License-file:   LICENSE
 author:         Michael Dunn
